@@ -1,10 +1,24 @@
-﻿生成启动时间为 2018/11/6 23:04:12。
+﻿生成启动时间为 2018/11/7 22:13:33。
      1>项目“E:\C语言\test_11_6\test_11_6\test_11_6.vcxproj”在节点 2 上(Build 个目标)。
      1>ClCompile:
          F:\新建文件夹 (2)\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt ii.c
          ii.c
-     1>e:\c语言\test_11_6\test_11_6\ii.c(29): warning C4553: “==”: 运算符不起任何作用；是否是有意使用“=”的?
-     1>e:\c语言\test_11_6\test_11_6\ii.c(35): warning C4553: “==”: 运算符不起任何作用；是否是有意使用“=”的?
+     1>e:\c语言\test_11_6\test_11_6\ii.c(317): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 f:\新建文件夹 (2)\vc\include\conio.h(131) : 参见“getch”的声明
+     1>e:\c语言\test_11_6\test_11_6\ii.c(373): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 f:\新建文件夹 (2)\vc\include\conio.h(131) : 参见“getch”的声明
+     1>e:\c语言\test_11_6\test_11_6\ii.c(389): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 f:\新建文件夹 (2)\vc\include\conio.h(131) : 参见“getch”的声明
+     1>e:\c语言\test_11_6\test_11_6\ii.c(474): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 f:\新建文件夹 (2)\vc\include\conio.h(131) : 参见“getch”的声明
+     1>e:\c语言\test_11_6\test_11_6\ii.c(527): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 f:\新建文件夹 (2)\vc\include\conio.h(131) : 参见“getch”的声明
+     1>e:\c语言\test_11_6\test_11_6\ii.c(630): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 f:\新建文件夹 (2)\vc\include\conio.h(131) : 参见“getch”的声明
+     1>e:\c语言\test_11_6\test_11_6\ii.c(667): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 f:\新建文件夹 (2)\vc\include\conio.h(131) : 参见“getch”的声明
+     1>e:\c语言\test_11_6\test_11_6\ii.c(696): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 f:\新建文件夹 (2)\vc\include\conio.h(131) : 参见“getch”的声明
        Link:
          F:\新建文件夹 (2)\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\C语言\test_11_6\Debug\test_11_6.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\C语言\test_11_6\Debug\test_11_6.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\C语言\test_11_6\Debug\test_11_6.lib" /MACHINE:X86 Debug\ii.obj
          test_11_6.vcxproj -> E:\C语言\test_11_6\Debug\test_11_6.exe
@@ -12,4 +26,4 @@
 
 生成成功。
 
-已用时间 00:00:01.01
+已用时间 00:00:00.47
