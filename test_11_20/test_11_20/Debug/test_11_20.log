@@ -1,0 +1,24 @@
+﻿生成启动时间为 2018/11/19 21:26:58。
+     1>项目“E:\C语言\test_11_20\test_11_20\test_11_20.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         F:\新建文件夹 (2)\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt asd.c
+         asd.c
+     1>e:\c语言\test_11_20\test_11_20\asd.c(176): error C2084: 函数“int main()”已有主体
+                 e:\c语言\test_11_20\test_11_20\asd.c(146) : 参见“main”的前一个定义
+     1>e:\c语言\test_11_20\test_11_20\asd.c(182): error C2011: “Stu”:“struct”类型重定义
+                 e:\c语言\test_11_20\test_11_20\asd.c(170) : 参见“Stu”的声明
+     1>e:\c语言\test_11_20\test_11_20\asd.c(198): error C2079: “p”使用未定义的 struct“Point”
+     1>e:\c语言\test_11_20\test_11_20\asd.c(207): error C2078: 初始值设定项太多
+     1>e:\c语言\test_11_20\test_11_20\asd.c(208): error C2039: “data”: 不是“Node”的成员
+                 e:\c语言\test_11_20\test_11_20\asd.c(196) : 参见“Node”的声明
+     1>e:\c语言\test_11_20\test_11_20\asd.c(208): error C2224: “.x”的左侧必须具有结构/联合类型
+     1>e:\c语言\test_11_20\test_11_20\asd.c(208): error C2224: “.y”的左侧必须具有结构/联合类型
+     1>e:\c语言\test_11_20\test_11_20\asd.c(223): error C2037: “x”的左侧部分指定未定义的结构/联合“B”
+     1>e:\c语言\test_11_20\test_11_20\asd.c(223): error C2037: “arr”的左侧部分指定未定义的结构/联合“B”
+     1>e:\c语言\test_11_20\test_11_20\asd.c(228): error C2079: “b”使用未定义的 struct“B”
+     1>e:\c语言\test_11_20\test_11_20\asd.c(228): error C2143: 语法错误 : 缺少“;”(在“return”的前面)
+     1>已完成生成项目“E:\C语言\test_11_20\test_11_20\test_11_20.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:01.05
